@@ -1,0 +1,22 @@
+{
+  "name": "breaking-news-bot",
+  "version": "1.0.0",
+  "description": "Discord bot for breaking news and special reports",
+  "main": "src/index.js",
+  "scripts": {
+    "start": "node src/index.js",
+    "dev": "node --watch src/index.js"
+  },
+  "keywords": [
+    "discord",
+    "bot",
+    "breaking-news"
+  ],
+  "author": "",
+  "license": "MIT",
+  "dependencies": {
+    "discord.js": "^14.14.0",
+    "dotenv": "^16.3.1"
+  },
+  "devDependencies": {}
+}
